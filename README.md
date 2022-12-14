@@ -1,21 +1,29 @@
-# Rubik's Cube
+# Cubeplus
 
-An online Rubik's cube for beginners.
+Software function display ：https://lzj0913.github.io/Cube/
 
-If it takes too long to visit github, visit https://gitee.com/chenyxuan/rubikscube-mirror for code and https://rubikscube-mu.vercel.app for deployment.
+## Environment Build
 
-## Quick Build
-
-Clone this repo and run (require nodejs 16.x)
+Clone this repo and run (require nodejs 16.x)，you can use`node -v`to check your version in your terminal:
 
 ```
 npm install
 npx webpack
-npm test
+```
+
+## Test
+
+```
+npm test/npm run test
+```
+
+## Run Server
+
+```
 npm run dev
 ```
 
-Then you can visit http://localhost:8080/ for a demo in development mode.
+Then you can visit http://localhost:8080/ for a demo in development mode. You can run server directly without testing, but it is recommended to test it first
 
 ## Releases
 
